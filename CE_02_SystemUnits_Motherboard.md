@@ -124,22 +124,13 @@ If an error occures, they are either displayed on the screen, through the BIOS, 
 
 examples of P.O.S.T. errors (from wikipedia and Computer Hope)
 
-| BEEPS | MAC | 
-|-------|-----|
-| 1 | no RAM installed / detected |
-| 2 | imcompatible RAM types |
-| 3 | no good banks |
-| 4 | no good boot images in the boot ROM <br> bad system configuration block |
-| 5 | processor is not usable | 
-
-<br>
-
-|BEEPS | INTEL MAC | 
-|------|-----------|
-| 1 beeps every 5 seconds | no RAM installed / detected |
-| 3 beeps every 5 seconds | imcompatible RAM types <br> no good banks |
-| 1 long beep while the <br> power button is held down | EFI ROM update in progress (For Macs < 2012) |
-| 3 long 3 short 3 long | EFI ROM corruption detected <br> ROM recovery in process | 
+| BEEPS | MAC | | BEEPS | INTEL MAC | 
+|-------|-----|-|-------|-----------|
+| 1 | no RAM installed / detected | | 1 beeps every 5 seconds | no RAM installed / detected |
+| 2 | imcompatible RAM types | | 3 beeps every 5 seconds | imcompatible RAM types <br> no good banks |
+| 3 | no good banks | | 1 long beep while the <br> power button is held down | EFI ROM update in progress (For Macs < 2012) |
+| 4 | no good boot images in the boot ROM <br> bad system configuration block | | 3 long 3 short 3 long | EFI ROM corruption detected <br> ROM recovery in process | 
+| 5 | processor is not usable | | | |
 
 <br>
 
