@@ -46,3 +46,55 @@ to make contact with the CPU, the socket has two ways
 
 
 
+<br>
+<br>
+
+________
+### 03.00 PORTS AND CONNECTORS
+________________
+
+ports that come directly off the motherboard are aclled ```ONBOARD PORTS```
+
+* USB
+* soudn
+* network
+* FireWire
+* eSATA
+* ...
+
+
+<br>
+<br>
+
+________
+### 04.00 SETTINGS
+________________
+
+motherboard settings can be used for many different things that touch the basic of the computer
+* Enable / Disable connectors and ports
+* Set CPU and buses frequency
+* Control security features
+* Booting configuration
+
+
+<br>
+
+#### 04.01 BIOS VS UEFI
+
+the BIOS and UEFI serve the same purpose, the BIOS is simply the older version
+
+There is also computers with both BIOS and UEFI to enable better backward compatibility
+
+Everything is on and controlled in the ```BIOS chip```, and powered by the ```CMOS battery``` (Complementary metal-oxide semiconductor)
+
+|PROCESS | BIOS | UEFI |
+|--------|------|------|
+| **STORAGE / PARTIONING** | ```Master Boot Record``` or ```MBR``` <br> size limit : 2.2 TB | ```GUID partition table``` or ```GPT```  <br> size limit : none |
+| **BOOTLOADER** | in the ```MBR``` | on the ```EFI System Partition``` or ```ESP``` |
+| **BOOT** | ```POST``` before booting | bypass ```POST``` and boots OS directly |
+| **UI** | text-based | GUI |
+| **SECURITY** | limited | multiple features including secure boot | 
+| **DRIVER SUPPORT** | built-in ROM drivers | supports discrete driver loading for better maintenance and updating of the firmware |
+| **MODE** | 16-bit mode | 64-bit mode |
+
+```EFI``` means Estensible Firmware INterface
