@@ -106,3 +106,78 @@ Everything is on and controlled in the ```BIOS chip```, and powered by the ```CM
 | **MODE** | 16-bit mode | 64-bit mode |
 
 ```EFI``` means Estensible Firmware INterface
+
+
+
+<br>
+<br>
+
+________
+### 05.00 POWER ON SELF TEST
+________________
+
+often abreviated to ```P.O.S.T.```, it is a sery of system checks run by computers when they boot up.
+
+it allows the computer to check if everything is working normally, and if not, to halt or even stop completly the booting process and tell the user the problem.
+
+If an error occures, they are either displayed on the screen, through the BIOS, or through sounds and LEDs if the error happened before the screen check
+
+examples of P.O.S.T. errors (from wikipedia and Computer Hope)
+
+| BEEPS | MAC | 
+|-------|-----|
+| 1 | no RAM installed / detected |
+| 2 | imcompatible RAM types |
+| 3 | no good banks |
+| 4 | no good boot images in the boot ROM <br> bad system configuration block |
+| 5 | processor is not usable | 
+
+<br>
+
+|BEEPS | INTEL MAC | 
+|------|-----------|
+| 1 beeps every 5 seconds | no RAM installed / detected |
+| 3 beeps every 5 seconds | imcompatible RAM types <br> no good banks |
+| 1 long beep while the <br> power button is held down | EFI ROM update in progress (For Macs < 2012) |
+| 3 long 3 short 3 long | EFI ROM corruption detected <br> ROM recovery in process | 
+
+<br>
+
+| BEEPS | AMI BIOS |
+|-------|----------|
+| 1 | memory refresh timer error |
+| 2 | parity error in base memory (first 64 KiB block) |
+| 3 | Base memory read / write test error |
+| 4 | motherboard timer not operational |
+| 5 | procesor failure |
+| 6 | 8042 Gate A20 test error (cannot switch to protected mode) |
+| 7 | General exception error (processor exception interrupt error) |
+| 8 | Display memory error (system video adapter) |
+| 9 | AMI BIOS ROM checksum fix |
+| 10 | CMOS shutdown register read / write fix |
+| 11 | cache memory test failed |
+| continuous | motherboard does not detect a RAM module |
+
+<br>
+
+| CODES | IBM BIOS | |  CODES | IBM BIOS |
+|-------|----------|-|--------|----------|
+| 100–199	| System boards |                                         | 1700–1799   | Hard drive or adapter (or both) |
+| 200–299	| Memory |                                                | 1800–1899   | Expansion unit (XT) |
+| 300–399	| Keyboard |                                              | 2000–2199   | Bisynchronous communication adapter |
+| 400–499	| Monochrome display |                                    | 2400–2599   | EGA system-board video (MCA) |
+| 500–599	| Color / graphics display |                              | 3000–3199   | LAN adapter |
+| 600–699	| Floppy-disk drive or adapter |                          | 4800–4999   | Internal modem | 
+| 700–799	| Math coprocessor |                                      | 7000–7099   | Phoenix BIOS chips |
+| 900–999	| Parallel printer port |                                 | 7300–7399   | 3.5-inch disk drive |
+| 1000–1099	| Alternate printer adapter |                             | 8900–8999   | MIDI adapter | 
+| 1100–1299	| Asynchronous communication device, adapter, or port |   | 11200–11299 | SCSI adapter |
+| 1300–1399	| Game port |                                             | 21000–21099 | SCSI fixed disk and controller |
+| 1400–1499	| Color / graphics printer |                              | 21500–21599 | SCSI CD-ROM system |
+| 1500–1599	| Synchronous communication device, adapter, or port | | | |
+
+
+
+
+
+
