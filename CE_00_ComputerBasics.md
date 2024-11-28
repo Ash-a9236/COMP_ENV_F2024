@@ -104,12 +104,12 @@ example of storage devices are
 <br>
 
 ________
-### 02.00 COMPUTER SOFTWARE
+### 03.00 COMPUTER SOFTWARE
 ________________
 
 it is the collection of computer programs, procedures, and documentation that perform the different tasks on a computer system
 
-#### 02.01 OPERATING SYSTEM
+#### 03.01 OPERATING SYSTEM
 
 often abreviated to ```OS```, it is the collectino of software that manages computer hardware ressources and provides common services for computer programs
 
@@ -124,7 +124,7 @@ examples of OSs
 * Android
 
 
-#### 02.02 APPLICATION SOFTWARE 
+#### 03.02 APPLICATION SOFTWARE 
 
 it is often just known as an application or app
 
@@ -138,7 +138,7 @@ examples of apps
 * presentation software
 
 
-#### 02.03 UTILITY SOFTWARE 
+#### 03.03 UTILITY SOFTWARE 
 
 it is software designed to help analyze, configure, optimize, or maintain a computer
 
@@ -148,5 +148,94 @@ examples of utility software
 * screensaver
 * file manager
 * disk cleaner
+
+
+<br>
+<br>
+
+________
+### 04.00 COMPUTER PERFORMANCE
+________________
+
+there is two types of speeds : the response time (wall-clock time, execution time, or latency), and the throughput (bandwith)
+
+the response time is often what the end-user is worried about, while teh throughput, the number of tasks executed in a certain amount of time, is what the computer cares about
+
+it is often not really possible to describe the performance of a computer with either in terms of constant values, so we useually give them in a ```statistical distribution```
+
+* best-case access time
+* worst-case access time
+
+#### 04.01 COMPARING EXECUTION TIME
+
+to compare the execution time of two computers, we use the following formula : 
+
+
+```math
+
+\frac{Execution..Time..B}{Execution..Time..A} = 1 + \frac{n}{100}
+
+```
+<br>
+
+which is the same as saying
+
+```math
+
+\frac{Performance..B}{Performance..A} = 1 + \frac{n}{100}
+
+```
+<br>
+
+to find n%, we can use the following : 
+
+```math
+
+n = 100 * \frac{Execution..Time..B - Execution..Time..A}{Execution..Time..A}
+
+```
+
+#### 04.02 COMPARING CPU PERFORMANCE
+
+Be careful! You cannot rely on the specs of the CPU to calculate everything, you need to mesure it yourself
+
+<br>
+
+| VAR |   |   |
+|-----|---|---|
+| CC | Clock Cycles | A complete CPU cycle :  <br> * Fetch <br> * Decode <br> * Execute <br> * Store |
+| CPI | Clock Cycles per Instructions | The number of Cycles it takes to perform an instruction <br> * RISC tries to reduce this to raise efficiency|
+| T<sub>ck</sub> | Clock Cycle Time | the interval in between two clock cycles <br> * modern CPUs operate at approximatively 0.33ns (nanoseconds)|
+
+
+<br>
+
+**Clock Cycle Time**
+
+```math
+T_{ck} = \frac{CPU_{time}}{Clock..Cycles}
+```
+<br>
+
+**Time it takes for a CPU to perform a program**
+
+```math
+CPU_{time} = Clock..Cycles * T_{ck}
+```
+
+<br>
+
+**Clock Cycles Per Instructions or CPI**
+
+```math
+CPI = \frac{CC}{IC} 
+```
+
+**CPU time**
+```math
+CPU_{time} = IC * CPI * T_{ck}
+```
+
+
 
 

@@ -16,6 +16,8 @@ for the other system units, the case needs to
 * regulate heat
 * allow expansion
 
+<br>
+
 #### 01.01 FORM FACTOR
 
 the ```FORM FACTOR``` is one of the most defining things that will help make the choice of a computer case
@@ -33,6 +35,8 @@ other things to consider
 * cooling options (active : fans, passive : heat syncs, liquid)
 * expansion bay and slots
 
+<br>
+
 #### 01.02 HTPC CASE
 
 it is used for small and enclosed locations near TVs
@@ -43,6 +47,8 @@ it is used for small and enclosed locations near TVs
 | micro ITX | limited or none | limited |  limited |
 
 
+<br>
+
 #### 01.03 ATX MINI TOWER CASE
 
 it is used for PCs, for smaller tables or locations
@@ -51,6 +57,9 @@ it is used for PCs, for smaller tables or locations
 | MOTHERBOARD | EXPENSION | HEAT | ACCESS TO COMPONENTS |
 |-------------|-----------|------|----------------------|
 | micro ATX | good | good |  good |
+
+
+<br>
 
 #### 01.04 ATX MID TOWER CASE
 
@@ -61,6 +70,8 @@ it is the most common tower case, often used for workstations and PCs
 |-------------|-----------|------|----------------------|
 | Standart ATX | good | good |  good |
 
+
+<br>
 
 #### 01.05 ATX DESKTOP
 
@@ -74,6 +85,8 @@ the monitor is sometimes placed on top of the case
 | ATX | average | average | easy access |
 
 
+<br>
+
 #### 01.06 ATX FULL TOWER CASE
 
 it is one of the biggest tower case, often used for servers, workstations, PCs, and gaming PCs
@@ -84,6 +97,7 @@ it is one of the biggest tower case, often used for servers, workstations, PCs, 
 | Standart ATX | great | great |  great |
 
 
+<br>
 
 #### 01.07 ATX SUPER TOWER CASE
 
@@ -97,6 +111,7 @@ it can house multiple CPUs, fans, and other system units
 | Standart ATX or XL ATX | insane | great |  great |
 
 
+<br>
 
 #### 01.08 ATX BENCH CASE
 
@@ -110,6 +125,7 @@ there is no protection
 | ATX | good | very good |  extreme access |
 
 
+<br>
 
 #### 01.09 SERVER CASE
 
