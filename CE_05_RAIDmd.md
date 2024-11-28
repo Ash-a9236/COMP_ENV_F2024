@@ -66,9 +66,9 @@ also known as ```STRIPPING```
 it maps data across the physical drives in an arra to create a large virtual disk
 the data is then divided into consecutive segments or stripes that are written sequentially across the drives
 
-| ADVANTAGE | DISADVENTAGE |
-|-----------|--------------|
-| improved performance (fastest RAID mode) | all data will be lost if one disk fails |
+improved performance (fastest RAID mode)
+
+no disk failure possible without the loss of data
 
 
 <br>
@@ -98,19 +98,25 @@ ________________
 
 #### 05.00 RAID 2
 
-Bit-level striping with Hamming code for error correction, providing good read and write performance, with fault tolerance for one drive failure.
+Bit-level striping with Hamming code for error correction, providing good read and write performance
+
+fault tolerance for one drive failure.
 
 <br>
 
 #### 05.01 RAID 3
 
-Byte-level striping with dedicated parity, providing good read and write performance, with fault tolerance for one drive failure.
+Byte-level striping with dedicated parity, providing good read and write performance
+
+fault tolerance for one drive failure.
 
 <br>
 
 #### 05.02  RAID 4
 
-Block-level striping with dedicated parity, providing good read and write performance, with fault tolerance for one drive failure.
+Block-level striping with dedicated parity, providing good read and write performance
+
+with fault tolerance for one drive failure.
 
 <br>
 <br>
