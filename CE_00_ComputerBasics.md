@@ -140,5 +140,13 @@ examples of apps
 
 #### 02.03 UTILITY SOFTWARE 
 
+it is software designed to help analyze, configure, optimize, or maintain a computer
+
+examples of utility software
+* antivirus
+* disk defragment
+* screensaver
+* file manager
+* disk cleaner
 
 
