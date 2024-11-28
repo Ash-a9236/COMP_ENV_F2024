@@ -1,9 +1,9 @@
 # CE REVISION SHEET 01
-## SYSTEM UNITS
+## SYSTEM UNITS : CASE
 <br>
 
 ________
-### 01.00 CASE
+### 01.00 FORM FACTOR
 ________________
 
 the case is the frame that houses all the other system units of the computer
@@ -17,8 +17,14 @@ for the other system units, the case needs to
 * allow expansion
 
 <br>
+<br>
 
-#### 01.01 FORM FACTOR
+________
+### 01.00 FORM FACTOR
+________________
+
+
+
 
 the ```FORM FACTOR``` is one of the most defining things that will help make the choice of a computer case
 
@@ -36,8 +42,12 @@ other things to consider
 * expansion bay and slots
 
 <br>
+<br>
 
-#### 01.02 HTPC CASE
+________
+### 02.00 HTPC CASE
+________________
+
 
 it is used for small and enclosed locations near TVs
 
@@ -48,8 +58,12 @@ it is used for small and enclosed locations near TVs
 
 
 <br>
+<br>
 
-#### 01.03 ATX MINI TOWER CASE
+________
+### 03.00 ATX MINI TOWER CASE
+________________
+
 
 it is used for PCs, for smaller tables or locations
 
@@ -60,8 +74,12 @@ it is used for PCs, for smaller tables or locations
 
 
 <br>
+<br>
 
-#### 01.04 ATX MID TOWER CASE
+________
+### 04.00 ATX MID TOWER CASE
+________________
+
 
 it is the most common tower case, often used for workstations and PCs
 
@@ -71,9 +89,14 @@ it is the most common tower case, often used for workstations and PCs
 | Standart ATX | good | good |  good |
 
 
+
+<br>
 <br>
 
-#### 01.05 ATX DESKTOP
+________
+### 05.00 ATX DESKTOP
+________________
+
 
 often called a workstation
 
@@ -86,8 +109,11 @@ the monitor is sometimes placed on top of the case
 
 
 <br>
+<br>
 
-#### 01.06 ATX FULL TOWER CASE
+________
+### 06.00 ATX FULL TOWER CASE
+________________
 
 it is one of the biggest tower case, often used for servers, workstations, PCs, and gaming PCs
 
@@ -98,8 +124,11 @@ it is one of the biggest tower case, often used for servers, workstations, PCs, 
 
 
 <br>
+<br>
 
-#### 01.07 ATX SUPER TOWER CASE
+________
+### 07.00 ATX SUPER TOWER CASE
+________________
 
 it is one of the biggest tower case, often used for PCs, gaming PCs, and overall computer enthusiasts
 
@@ -111,9 +140,14 @@ it can house multiple CPUs, fans, and other system units
 | Standart ATX or XL ATX | insane | great |  great |
 
 
+
+<br>
 <br>
 
-#### 01.08 ATX BENCH CASE
+________
+### 08.00 ATX BENCH CASE
+________________
+
 
 it is an open computer case
 
@@ -125,9 +159,13 @@ there is no protection
 | ATX | good | very good |  extreme access |
 
 
+
+<br>
 <br>
 
-#### 01.09 SERVER CASE
+________
+### 09.00 SERVER CASE
+________________
 
 it comes in a variety of shapes and sizes (tower, home, rack mounted, etc.)
 
@@ -139,16 +177,24 @@ servers often support multiple motherboards, CPUs, cooling, expansions, and main
 | micro ITX | limited or none | limited |  limited |
 
 
-<br>
-<br>
 
-________
-### 02.00 MOTHERBOARD
-________________
 
-also known as ```MAIN BOARD```, ```SYSTEM BOARD```, and ```PLANAR```
 
-it connects all the components inside the computer case
+
+
+
+
+
+
+
+
+
+______________________________
+_______________________________
+___________________________________
+** TO PUT IN OTHER SHEETS
+
+
 
 
 <br>
