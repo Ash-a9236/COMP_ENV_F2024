@@ -16,6 +16,7 @@ ________
 ### 01.00 CPU
 ________________
 
+When making a computer, the first thing to consider is if the CPU is compatible with the motherboard, especially in BUS speed
 
 <br>
 
@@ -85,6 +86,13 @@ if it is not specified as ```SERIAL```, the bus is ```PARALLEL```
 
 often abreviated to ```FSB```, is is the bus that connects the ```CPU``` to the ```NORTHBRIDGE```
 
+
+<br>
+
+#### 02.04 BACK SIDE BUS
+
+the back side bus is the one that connects the CPU to the ```CACHE``` if the cache is on-board
+
 <br>
 <br>
 
@@ -92,7 +100,13 @@ ________
 ### 03.00 CHIPSET : NORTHBRIDGE
 ________________
 
-also called the ```MCH``` or ```Memory Controller Hub```, the northbridge
+also called the ```MCH``` or ```Memory Controller Hub```, the northbridge is the bus for the high speed and very high speed components
+
+it connects the CPU to the RAM (DDR memory) and the Video Bus (AGP / PCI-X)
+on very modern CPUs, the memory controller is already integrated into the CPU, which means that the memory is already directly connected to the CPU. This creates a simpler Northbridge
+
+
+on a motherboard, the northbrdige is the Chip the closest to the CPU socket
 
 <br>
 <br>
@@ -100,6 +114,24 @@ also called the ```MCH``` or ```Memory Controller Hub```, the northbridge
 ________
 ### 04.00 CHIPSET : SOUTHBRIDGE
 ________________
+
+also called the ```ICH``` or ```I/O Controller Hub```, it is for the slower components of the computer such as the I/O devices 
+
+it connects the northbridge bus to the slower components of the computer
+
+some computer implement another, slower bridge to the chip set, the ```SUPERIO```
+
+it connects 
+* PCI bus
+* BIOS
+* disk controllers
+* USB controllers
+* audio
+* serial I/O
+* interrupt controller
+* timers
+* ...
+
 
 
 

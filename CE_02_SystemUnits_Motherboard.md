@@ -2,7 +2,7 @@
 ## SYSTEM UNITS : MOTHERBOARD
 <br>
 
-also known as ```MAIN BOARD```, ```SYSTEM BOARD```, and ```PLANAR```
+also known as ```MAIN BOARD```, ```SYSTEM BOARD```, and ```PLANAR```, it is the central printed circuit board, or ```PCB```
 
 it connects all the components inside the computer case
 
@@ -15,6 +15,12 @@ ________________
 
 the motherboard needs to be compatible with multiple othe system units, including the case, the power supply, etc.
 
+it includes
+* dimension / size
+* power supply type
+* location of mounting holes
+* number of ports
+
 
 <br>
 <br>
@@ -25,6 +31,8 @@ ________________
 
 the CPU is attached to the motherboard, therefore it needs to fit the socket the motherboard has installed on
 
+the socket provides mechanical and electrical connection between the CPU and the motherboard
+
 all processor sockets use ```ZIF``` or Zero Insertion Force sockets
 
 on the market, today, most motherboards have three types of processor sockets
@@ -32,7 +40,7 @@ on the market, today, most motherboards have three types of processor sockets
 | ABV | FULL NAME | DESC |
 |-----|-----------|------|
 | ```PGA``` | Pin Grid Array | pins aligned in uniform rows around the socket|
-| ```LGA``` | Land Grid Array | it uses pads (lands) rather than pins |
+| ```LGA``` | Land Grid Array | it uses pads (lands) rather than pins <br> (the pins are on teh socket rather than the CPU) |
 |```FCLGA``` | Flip-chip Land Grid Array | the chip is flipped so the top of <br> the chip makes contact with the socket |
 
 <br>
