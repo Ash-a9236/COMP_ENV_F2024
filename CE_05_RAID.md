@@ -147,7 +147,18 @@ a minimum of four (4) disks is required (two (2) disk will be used to maintain f
 
 two drives fault tolerance
 
+<br>
+<br>
 
+________
+### 08.00 RAID 10 OR 1+0
+________________
+
+combination of RAID 1 and RAID 0
+
+takes at least 4 disks
+
+the data is mirroired accross pairs of disks
 
 
 

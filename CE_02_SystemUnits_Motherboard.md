@@ -6,6 +6,8 @@ also known as ```MAIN BOARD```, ```SYSTEM BOARD```, and ```PLANAR```, it is the 
 
 it connects all the components inside the computer case
 
+a motherboard without a CPU is called a ```DAUGHTERBOARD```
+
 
 <br>
 
@@ -168,7 +170,34 @@ examples of P.O.S.T. errors (from wikipedia and Computer Hope)
 | 1500–1599	| Synchronous communication device, adapter, or port | | | |
 
 
+<br>
+<br>
 
+________
+### 06.00 PORTS
+________________
+
+ ports are used by the motherboard to interface with other electronics, whether its inside or outside of the computer
+
+ ```INTEGRATED PORTS``` are ports that are directly wired to the motherboard
+
+ ```INTERNAL INTEGRATED PORTS``` are ports that are used to connect devices inside the system units
+
+ ```EXTERNAL INTEGRATED PORTS``` are ports that might be connected to the motheboard directly (integrated) or by other circuit boards that are inserted into the motherboard's slots
+
+ | NAME | VERSION | USE |
+ |------|---------|-----|
+ | PS/2 | OUTDATED | used to connect peripherals (mouse, keyboard, etc.) |
+ | RJ-45 | - |  wired Etherned cable |
+ | USB | 3.0 | ```UNIVERSAL SERIAL BUS``` <br> mostly used to carry data or recharge devices <br> multiple versions (A, B, Mini-A, Mini-B, Micro-A, Micro B, C)|
+ | SERIAL | OUTDATED | used to connect peripherals (mouse, keyboard, etc.) before PS/2 | 
+ | PARALLEL | - | used to connect peripherals like printers |
+ | VGA | - | ```VIDEO GRAPHICS ARRAY``` or ```RGB CONNECTOR```<br> connect a monitor or video equipment |
+ | DA-15 | - | network connectivity and video output |
+ | AUDIO | - | connect to external speakers, microphone, headphone, etc. |
+ | FIREWIRE | - | ```IEEE 1394 INTERFACE``` <br> high definition audio and video transfer |
+ | eSATA | - | ```SERIAL ADVANCED TECHNOLOGY ATTACHMENT``` <br> computer bus interface to connect storage devices to optical drives inside the system box |
+ | SCSI | - | connection interface for disk drives  <br> only used now for high-end workstations and servers |
 
 
 

@@ -73,5 +73,17 @@ If you change a folder or file of place, they will take the new parent folder's 
 | FULL CONTROL | all | change | take | change |
 
 
+<br>
+<br>
+
+________
+### 04.00 COMPACT DISC FILE SYSTEM
+________________
+
+```CDFS```, also called ```Universal Disk Format``` or ```UDF```
+
+is used in CDs and DVDs (the newer version of UDF is used by both DVD and Blu-rayDs)
+
+they use laser technologies to write and read the data
 
 
