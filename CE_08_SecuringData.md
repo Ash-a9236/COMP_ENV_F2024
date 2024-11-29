@@ -1,4 +1,4 @@
-# CE REVISION SHEET 07
+# CE REVISION SHEET 08
 ## SECURING DATA
 <br>
 
@@ -31,5 +31,3 @@ it is an encryption that works on the partition itself, not on the folder or fil
 since it is on the partition level, it is either on or off for all users
 
 it can also be used to encrypt a USB drive (make it password restricted)
-
-
