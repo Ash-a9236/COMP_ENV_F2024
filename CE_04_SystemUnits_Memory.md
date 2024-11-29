@@ -172,11 +172,9 @@ each memory cell is pared with a transistor and a capacitor
 
 it requires constrant refreshing as reading discharge the contents, and to maintain a constant charge, it must be refreshed every 15 microseconds
 
+* ```Parity DRAM``` is the name for the 9th bit added to each byte of memory of the DRAM as a parity to verify correct transmissions
 
-
-
-
-
+* ```Enhanced DRAM``` or ```EDRAM``` is a combination of SRAM and DRAM in a single package, usually for a L2 cache
 
 
 
